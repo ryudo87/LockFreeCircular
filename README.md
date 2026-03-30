@@ -1,9 +1,8 @@
 # set
 要想合并两个set的内容，怎样做效率会比较高呢？
-set_union(s1.begin(),   s1.end(),   s2.begin(),   s2.end(),   inserter(s3));
+## set_union(s1.begin(),   s1.end(),   s2.begin(),   s2.end(),   inserter(s3));
 
 
-在序列中找出符合某谓词的第一个元素 find_if() 
 在序列中找出一子序列的最后一次出现的位置 find_end() 
 在序列中找出第一次出现指定值集中之值的位置 find_first_of() 
 在序列中找出相邻的一对值 adjacent_find() 
